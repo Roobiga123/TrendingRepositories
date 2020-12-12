@@ -9,6 +9,9 @@ Libraries Used:
 1.Retrofit - For fetching the data from remote.
 2.Okhttp- For caching the retrofit data
 3.LiveData- For updating the data in activity
+4.Roomdatabase- for storing data.
+
+
 
 Architecture Pattern:
 MVVM acrchitecture pattern  is used throughout the project
