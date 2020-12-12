@@ -15,3 +15,9 @@ Libraries Used:
 
 Architecture Pattern:
 MVVM acrchitecture pattern  is used throughout the project
+![ListofRepositories](https://user-images.githubusercontent.com/38130323/101977339-f805cc80-3c72-11eb-91e6-a2844a4895ab.png)
+![Loading_state](https://user-images.githubusercontent.com/38130323/101977544-102a1b80-3c74-11eb-9bf8-a420a1951c29.png)
+![EmptyState](https://user-images.githubusercontent.com/38130323/101977547-17512980-3c74-11eb-9efe-b2b7f654959b.png)
+![searched data](https://user-images.githubusercontent.com/38130323/101977553-2041fb00-3c74-11eb-9a6b-6d6d904c82b3.png)
+![swipe_refresh](https://user-images.githubusercontent.com/38130323/101977556-259f4580-3c74-11eb-8bcd-0436857ce96e.png)
+![Afterpullrefresh](https://user-images.githubusercontent.com/38130323/101977564-318b0780-3c74-11eb-8cb2-948e029fc0ff.png)
