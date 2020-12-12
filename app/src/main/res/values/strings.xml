@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Trending Repositories</string>
+    <string name="toolbar_name">TrendingRepositories</string>
+    <string name="btn_retry">Retry</string>
+</resources>

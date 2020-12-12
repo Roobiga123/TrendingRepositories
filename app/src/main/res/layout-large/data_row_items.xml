@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/iv_square"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:src="@drawable/square_icon"
+
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/tv_square"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/iv_square"
+            android:text="square"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/iv_square"
+
+            android:text="13.3 Inch, 256 GB"
+            android:textColor="#000000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:layout_below="@id/tv_title"
+android:layout_marginTop="10dp"
+
+
+            android:text="4.7"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            />
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tv_desc">
+        <ImageView
+            android:id="@+id/iv_color"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+
+            android:layout_marginTop="30dp"
+
+            android:layout_marginLeft="30dp"
+            android:padding="2dp"
+            android:src="@drawable/bg_circle" />
+
+    <TextView
+        android:id="@+id/tv_lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/iv_color"
+
+        android:text="INR 56990"
+        android:textStyle="bold" />
+
+    <RatingBar
+            android:id="@+id/ratingbar"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="139dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/tv_lang"
+            android:numStars="1"
+            android:progressTint="#FFCC01"
+            android:rating="1"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:transformPivotX="0dp" />
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/ratingbar"
+            android:text="INR 56990"
+
+            />
+</RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>
